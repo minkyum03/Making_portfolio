@@ -1,0 +1,30 @@
+/* Google Web Font */
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+html{
+    /* IE(인터넷 익스플로어)에선 사용불가,
+    속도조절 불가 */
+    scroll-behavior: smooth;
+}
+
+body{
+font-family: 'Raleway', sans-serif;
+}
+header a{
+    background-color: teal;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+p{
+    font-size: 1.5em;
+    line-height: 2em;
+}
+.btn-gototop{
+    background-color: pink;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;    
+}
