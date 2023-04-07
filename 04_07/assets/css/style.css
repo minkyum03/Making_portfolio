@@ -1,0 +1,56 @@
+/* span{
+    border: 1px solid black;
+    width: 400px;
+    height: 200ox;
+    margin: 20px;
+}
+
+div{
+    border: 1px solid red;
+    margin: 20px;
+    width: 300px;
+    height: 50px;
+}
+
+img{
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+}
+h1{
+    border: 1px solid blue;
+    display: inline-block;
+} */
+
+
+/* 
+어떤 요소이건 position: absolute 또는 fixed가 적용되면 인라인블록으로 변함.
+*/
+div{
+    border: 1px solid black;
+    position: absolute;
+    /* display: block; */
+    /* display: inline-block; */
+    width: 400px;
+    height: 100px;
+    margin: 50px;
+}
+
+
+/* before after는 기본적으로 인라인요소  */
+h1{
+    border: 1px solid black;
+}
+h1:before{
+    content: 'new';
+    color: red;
+    border: 1px solid green;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    position: absolute;
+}
+h1:after{
+    content: 'hot';
+    color: blue;
+}
