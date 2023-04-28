@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;500;700;900&display=swap');
+
+html{
+    font-size: 20px;
+}
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    
+}
+.box-em{
+    font-size: 20px;
+}
+.box-em p {
+    /* body태그가 아닌 box-em을 기준으로 생각해서 40px가 된다 */
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.box-rem{
+    font-size: 2em;
+}
+.box-rem p{
+    font-size: 1rem;
+}
